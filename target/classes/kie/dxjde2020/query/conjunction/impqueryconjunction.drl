@@ -1,0 +1,26 @@
+package cho.carbon.biz.rule.dxjde2020.conjunction
+import cho.carbon.fuse.improve.attribute.FuseAttributeFactory;
+import cho.carbon.rrc.record.FGAttribute;
+import cho.carbon.meta.enun.AttributeValueType;
+import cho.carbon.fuse.improve.attribute.FuseAttribute;
+import cho.carbon.ops.builder.RecordRelationOpsBuilder;
+import cho.carbon.ops.builder.RecordRelationOpsBuilder;
+import cho.carbon.sysdate.SystemDateTimeManager;
+import cho.carbon.rrc.builder.FGRootRecordBuilder;
+import cho.carbon.rrc.record.FGRootRecord;
+import cho.carbon.relation.RecordRelation;
+import cho.carbon.fuse.improve.attribute.leaf.FuseLeafAttribute;
+import cho.carbon.biz.constant.EnumKeyValue;
+import  cho.carbon.biz.constant.RelationType;
+import cho.carbon.biz.constant.BaseConstant;
+import cho.carbon.message.MessageFactory;
+
+global java.util.List messageList;
+global java.lang.String userCode;
+global java.lang.String recordName;
+global cho.carbon.meta.criteria.model.ModelConJunction modelConJunction;
+global java.util.List<ModelCriterion> addedCriterions;
+global java.util.List<String> removedCriterions;
+global java.util.List<RightRelationJunction> addedRRJunctions;
+global java.util.List<String> removedRRJunctions;
+
