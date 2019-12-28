@@ -31,7 +31,7 @@
 	<dependency>
 		<groupId>cho.carbon</groupId>
 		<artifactId>cfg_client</artifactId>
-		<version>0.0.30</version>
+		<version>0.0.38</version>
 	</dependency>
 	<!-- https://mvnrepository.com/artifact/org.lz4/lz4-java -->
 		<dependency>
