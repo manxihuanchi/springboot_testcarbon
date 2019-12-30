@@ -71,7 +71,7 @@ public class ConsumerCarbonController {
 		context.setStrucTitle("人口信息");
 		context.setUserCode("e10adc3949ba59abbe56e057f28888d5");
 		
-		context.getFunctionGroupContainer().putFunctionGroup("DXJDE2020",new PeopleBnb());
+//		context.getFunctionGroupContainer().putFunctionGroup("DXJDE2020",new PeopleBnb());
 		
 		Integration integration=PanelFactory.getIntegration();
 		Entity entity=createEntity();
